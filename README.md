@@ -8,19 +8,18 @@ Gate Allocation Tree using Binary Search Tree (BST)
 
 ## 👥 Team Members
 
-* Member 1: __________________
-* Member 2: __________________
-* Member 3: __________________
+* Member 1: Thugu harsha vardhan reddy
+* Member 2: boodati jayanth
+
 
 ---
 
 ## ❗ Problem Statement
 
-Managing flight gate allocation manually is inefficient and error-prone.
+Managing flight gate allocation manually is inefficiente.
 This project aims to develop a system that efficiently:
 
 * Adds flight and gate details
-* Updates gate assignments
 * Searches flight information
 * Deletes flight records
 * Displays all allocated flights
@@ -77,13 +76,13 @@ This project aims to develop a system that efficiently:
 Save the program as:
 
 ```
-main.c
+airport management.c
 ```
 
 ### Step 2: Compile
 
 ```
-gcc main.c -o project
+gcc airport management.c -o project
 ```
 
 ### Step 3: Run
@@ -93,6 +92,16 @@ gcc main.c -o project
 ```
 
 ---
+3.Once it compiles without errors, you can run the executable:
+On Linux/macOS:
+Bash
+
+./airport-management
+
+On Windows:
+Bash
+
+airport-management.exe
 
 ## 📊 Sample Output
 
