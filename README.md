@@ -1,27 +1,27 @@
-# ✈️ Gate Allocation Tree - Airport Management System
+
+# ✈️ Airport Management System using Binary Search Tree (BST)
+
+---
 
 ## 📌 Project Title
 
-Gate Allocation Tree using Binary Search Tree (BST)
+Airport Management System using Binary Search Tree
 
 ---
 
 ## 👥 Team Members
 
-* Member 1: Thugu Harsha Vardhan Reddy
-* Member 2: Boodati Jayanth
+* Your Name
+* Member 2 Name
+* Member 3 Name
 
 ---
 
-## ❗ Problem Statement
+## ❓ Problem Statement
 
-Managing flight gate allocation manually is inefficient and error-prone. This project aims to develop a system that efficiently:
+Managing flight records in an airport efficiently is a crucial task. The system must support operations such as adding new flights, searching for existing flights, updating flight status, deleting flight records, and displaying all flights in sorted order.
 
-* Adds flight and gate details
-* Updates gate assignments
-* Searches flight information
-* Deletes flight records
-* Displays all allocated flights
+Traditional methods may be slow and inefficient when handling large datasets. Therefore, an efficient data structure is required to optimize these operations.
 
 ---
 
@@ -29,154 +29,84 @@ Managing flight gate allocation manually is inefficient and error-prone. This pr
 
 **Binary Search Tree (BST)**
 
-### Why BST?
-
-* Efficient searching, insertion, and deletion
-* Maintains sorted order of flights
-* Reduces time complexity
+A Binary Search Tree is used to store flight records based on Flight ID.
+It allows efficient insertion, deletion, searching, and sorting of data.
 
 ---
 
 ## ⚙️ Algorithm Explanation
 
-### 1. Insert (Create)
+### 1. Insertion
 
-* If tree is empty → create node
-* If flight number < root → go left
-* If flight number > root → go right
+* Compare the Flight ID with the root node
+* If smaller → insert into left subtree
+* If larger → insert into right subtree
 
-### 2. Delete
+---
 
-* Case 1: No child → delete node
-* Case 2: One child → replace node
-* Case 3: Two children → replace with inorder successor
+### 2. Searching
 
-### 3. Update
-
-* Search node by flight number
-* Modify gate number
-
-### 4. Search
-
-* Compare flight number
+* Start from root
+* Compare Flight ID
 * Traverse left or right accordingly
+* Stop when the node is found or NULL
 
-### 5. Display
+---
 
-* Use inorder traversal
+### 3. Deletion
+
+* Case 1: Node has no children → delete directly
+* Case 2: Node has one child → replace with child
+* Case 3: Node has two children → replace with inorder successor
+
+---
+
+### 4. Traversal (Display)
+
+* Use **Inorder Traversal (Left → Root → Right)**
 * Displays flights in sorted order
 
 ---
 
-## 🛠️ Compilation Instructions
+### 5. Update
 
-### Step 1: Save file
-
-```bash
-main.c
-```
-
-### Step 2: Compile
-
-```bash
-gcc main.c -o project
-```
-
-### Step 3: Run
-
-#### On Linux/macOS:
-
-```bash
-./project
-```
-
-#### On Windows:
-
-```bash
-project.exe
-```
-
-> ⚠️ Note: Avoid spaces in file names (e.g., use `main.c` instead of `airport management.c`)
+* Search for the flight using Flight ID
+* Modify the status field
 
 ---
 
-## 📊 Sample Output
+## 💻 Compilation Instructions
 
-### 1. Add Node
+1. Save the file as `airport.c`
+2. Open terminal or command prompt
+3. Compile the program:
 
-```
-Enter Flight No and Gate No: 101 5
-```
+   ```
+   gcc airport.c -o airport
+   ```
+4. Run the program:
 
-### 2. Delete Node
+   ```
+   ./airport
+   ```
 
-```
-Enter Flight No to delete: 101
-Flight deleted!
-```
+   (For Windows: `airport.exe`)
 
-### 3. Update Node
+---
 
-```
-Enter Flight No to update: 102
-Enter New Gate No: 7
-Gate updated successfully!
-```
 
-### 4. Search
+## 🎯 Conclusion
 
-```
-Enter Flight No to search: 102
-Flight Found! Gate No: 7
-```
+This project demonstrates how a **Binary Search Tree (BST)** can be effectively used to manage airport flight records. The system supports essential operations such as insertion, deletion, searching, updating, and displaying flight data in a sorted manner.
 
-### 5. Display
+Using BST improves efficiency compared to traditional methods, especially for searching and organizing data. Although BST may become unbalanced in worst cases, it is still a powerful and simple data structure for moderate-sized applications.
 
-```
-Flight No: 101 | Gate No: 5
-Flight No: 102 | Gate No: 7
-```
-
-### 6. Exit
-
-```
-Exiting...
-```
+Overall, this project provides a clear understanding of how data structures can be applied in real-world systems like airport management.
 
 ---
 
 ## 🎥 Demo Video Link
 
-👉 Add your video link here:
-https://your-demo-video-link.com
-
----
-
-## 🎯 Features
-
-* CRUD Operations implemented
-* Menu-driven program
-* Uses dynamic memory allocation (`malloc`, `free`)
-* Modular programming using functions
-
----
-
-## 📌 Conclusion
-
-This project demonstrates how a **Binary Search Tree (BST)** can efficiently manage airport gate allocations. It improves speed, reduces manual errors, and provides a scalable solution for real-world airport systems.
-
-It provides:
-
-
-1.Faster data operations
-
-
-2.Better organization of flight records
-
-
-3.Reduced manual effort and errors
-
-
-Overall, the system is efficient, scalable, and practical for managing airport gate allocations.
+(Add your video link here, e.g., Google Drive / YouTube)
 
 ---
