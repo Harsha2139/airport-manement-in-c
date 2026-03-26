@@ -8,18 +8,17 @@ Gate Allocation Tree using Binary Search Tree (BST)
 
 ## 👥 Team Members
 
-* Member 1: Thugu harsha vardhan reddy
-* Member 2: boodati jayanth
-
+* Member 1: Thugu Harsha Vardhan Reddy
+* Member 2: Boodati Jayanth
 
 ---
 
 ## ❗ Problem Statement
 
-Managing flight gate allocation manually is inefficiente.
-This project aims to develop a system that efficiently:
+Managing flight gate allocation manually is inefficient and error-prone. This project aims to develop a system that efficiently:
 
 * Adds flight and gate details
+* Updates gate assignments
 * Searches flight information
 * Deletes flight records
 * Displays all allocated flights
@@ -73,37 +72,33 @@ This project aims to develop a system that efficiently:
 
 ### Step 1: Save file
 
-Save the program as:
-
-```
-airport management.c
+```bash
+main.c
 ```
 
 ### Step 2: Compile
 
-```
-gcc airport management.c -o project
+```bash
+gcc main.c -o project
 ```
 
 ### Step 3: Run
 
-```
+#### On Linux/macOS:
+
+```bash
 ./project
 ```
 
+#### On Windows:
+
+```bash
+project.exe
+```
+
+> ⚠️ Note: Avoid spaces in file names (e.g., use `main.c` instead of `airport management.c`)
+
 ---
-### 3.Once it compiles without errors, you can run the executable:
-## On Linux/macOS:
-
-Bash
-
-./airport-management
-
-## On Windows:
-
-Bash
-
-airport-management.exe
 
 ## 📊 Sample Output
 
@@ -153,10 +148,7 @@ Exiting...
 ## 🎥 Demo Video Link
 
 👉 Add your video link here:
-
-```
 https://your-demo-video-link.com
-```
 
 ---
 
@@ -164,13 +156,13 @@ https://your-demo-video-link.com
 
 * CRUD Operations implemented
 * Menu-driven program
-* Uses dynamic memory allocation
+* Uses dynamic memory allocation (`malloc`, `free`)
 * Modular programming using functions
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates how a **Binary Search Tree** can efficiently manage airport gate allocations. It improves speed, reduces manual errors, and provides a scalable solution for real-world airport systems.
+This project demonstrates how a **Binary Search Tree (BST)** can efficiently manage airport gate allocations. It improves speed, reduces manual errors, and provides a scalable solution for real-world airport systems.
 
 ---
