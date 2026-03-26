@@ -92,13 +92,15 @@ gcc airport management.c -o project
 ```
 
 ---
-3.Once it compiles without errors, you can run the executable:
-On Linux/macOS:
+### 3.Once it compiles without errors, you can run the executable:
+## On Linux/macOS:
+
 Bash
 
 ./airport-management
 
-On Windows:
+## On Windows:
+
 Bash
 
 airport-management.exe
