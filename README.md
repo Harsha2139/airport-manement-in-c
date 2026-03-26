@@ -167,9 +167,15 @@ This project demonstrates how a **Binary Search Tree (BST)** can efficiently man
 
 It provides:
 
-Faster data operations
-Better organization of flight records
-Reduced manual effort and errors
+
+1.Faster data operations
+
+
+2.Better organization of flight records
+
+
+3.Reduced manual effort and errors
+
 
 Overall, the system is efficient, scalable, and practical for managing airport gate allocations.
 
