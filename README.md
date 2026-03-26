@@ -110,4 +110,26 @@ Overall, this project provides a clear understanding of how data structures can 
 (Add your video link here, e.g., Google Drive / YouTube)
 
 ---
+### output
+
+
+<img width="462" height="653" alt="Screenshot 2026-03-26 194127" src="https://github.com/user-attachments/assets/70fed26a-ee0b-4745-a9f1-14848d5d8bab" />
+
+<img width="475" height="279" alt="Screenshot 2026-03-26 194136" src="https://github.com/user-attachments/assets/41c4707a-4eac-4d39-90b8-f75b00fecc46" />
+
+<img width="461" height="224" alt="Screenshot 2026-03-26 194148" src="https://github.com/user-attachments/assets/0b4d8e30-53c4-4f9d-bb00-71c8a17c86b5" />
+
+
+<img width="358" height="161" alt="Screenshot 2026-03-26 194156" src="https://github.com/user-attachments/assets/f49652b4-e2f8-4b7d-9f47-1c47bf703592" />
+
+
+<img width="487" height="261" alt="Screenshot 2026-03-26 194204" src="https://github.com/user-attachments/assets/49688ddd-9c35-4dbd-aede-a8d4a135a2a6" />
+
+
+<img width="516" height="335" alt="Screenshot 2026-03-26 194218" src="https://github.com/user-attachments/assets/5bffcbb4-3ddc-42cc-ae68-60117bb979cb" />
+
+
+
+
+
 
