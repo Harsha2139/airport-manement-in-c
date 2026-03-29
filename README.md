@@ -75,6 +75,181 @@ It allows efficient insertion, deletion, searching, and sorting of data.
 
 ---
 
+✈️ Gate Allocation System – Complete Explanation
+
+
+🔹 1. Functions
+✅ What are Functions?
+Functions are blocks of code used to perform specific tasks. They improve modularity, readability, and reusability.
+
+✅ Functions Used in Program
+Function	Purpose
+createNode()	Create new node
+insert()	Add flight (BST insertion)
+search()	Find flight
+update()	Modify gate number
+findMin()	Find smallest node
+deleteNode()	Remove node
+display()	Show all flights
+👉 Why used?
+
+Avoid code repetition
+
+Make program organized
+
+Easy to debug
+
+👉 Count: 7 user-defined functions
+
+
+
+🔹 2. Structure
+✅ Definition
+Structure is a user-defined data type used to group related data.
+
+struct Node {
+    int flightNo;
+    int gateNo;
+    struct Node *left, *right;
+};
+👉 Why used?
+
+Store multiple values (flight + gate) together
+
+Represent tree node
+
+👉 Count: 1 structure (Node)
+
+
+
+
+🔹 3. Loops
+✅ Types Used
+while loop
+
+while(1)
+Infinite loop for menu
+
+Recursion (acts like loop)
+
+Used in:
+
+insert
+
+search
+
+delete
+
+display
+
+👉 Why used?
+
+Repeat operations
+
+Traverse tree
+
+👉 Count:
+
+1 while loop
+
+Multiple recursive calls
+
+
+
+🔹 4. Pointers
+✅ Definition
+Pointers store address of variables.
+
+struct Node *left, *right;
+👉 Used in:
+
+Linking nodes
+
+Dynamic memory (malloc)
+
+Tree traversal
+
+👉 Why used?
+
+To create dynamic data structure
+
+Efficient memory usage
+
+👉 Count:
+
+Multiple pointers (root, left, right, temp)
+
+
+
+🔹 5. Variables
+✅ Types Used
+Type	Example
+Integer	flightNo, gateNo, choice
+Pointer	*root, *temp
+👉 Why used?
+
+Store input values
+
+Control program flow
+
+👉 Count: Multiple (approx 6–10 variables)
+
+
+
+🔹 6. Switch-Case
+✅ Purpose
+Used for menu-driven selection
+
+👉 Cases:
+1 → Insert
+2 → Delete
+3 → Update
+4 → Search
+5 → Display
+6 → Exit
+
+👉 Why used?
+
+Better than multiple if-else
+
+Easy to understand
+
+👉 Count: 6 cases + 1 default
+
+
+
+🔹 7. Binary Search Tree (BST)
+✅ Definition
+A tree where:
+👉 Left < Root < Right
+
+
+
+✅ Why BST is Used?
+✔ Fast searching
+✔ Sorted data automatically
+✔ Efficient insert & delete
+
+
+
+✅ Operations in BST
+Operation	Function
+Insert	insert()
+Search	search()
+Delete	deleteNode()
+Traverse	display()
+
+
+✅ Time Complexity
+Operation	Complexity
+Insert	O(log n)
+Search	O(log n)
+Delete	O(log n)
+Display	O(n)
+
+
+
+
 ## 💻 Compilation Instructions
 
 1. Save the file as `airport.c`
