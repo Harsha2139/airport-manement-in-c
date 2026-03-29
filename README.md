@@ -235,7 +235,7 @@ Control program flow
 
 
 
-### 🔹 6. Switch-Case
+### 🔹 6. switch-case
 
 ## ✅ Purpose
 
