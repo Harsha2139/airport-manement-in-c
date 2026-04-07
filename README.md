@@ -11,9 +11,9 @@ Airport Management System using Binary Search Tree
 
 ## 👥 Team Members
 
-* Your Name
-* Member 2 Name
-* Member 3 Name
+
+* Member 1 Name Thugu Harshavardhan reddy-CDS/2025/2138
+* Member 2 Name Boodati Jayanth-CDS/2025/1814
 
 ---
 
