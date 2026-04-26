@@ -133,7 +133,7 @@ Store multiple values (flight + gate)
 
 Represent tree node
 
-# 👉 Count: 1 structure (Node)
+ 👉 Count: 1 structure (Node)
 
 ### 🔹 2. Functions
 
@@ -171,7 +171,7 @@ Make program organized
 
 Easy to debug
 
-## 👉 count: 7 user-defined functions
+count: 7 user-defined functions
 
 
 
@@ -198,7 +198,7 @@ To create dynamic data structure
 
 Efficient memory usage
 
-## 👉 Count:
+ 👉 Count:
 
 Multiple pointers (root, left, right,
 
@@ -231,7 +231,7 @@ Repeat operations
 
 Traverse tree
 
-## 👉 Count:
+👉 Count:
 
 1 while loop
 
@@ -256,7 +256,7 @@ Store input values
 
 Control program flow
 
-## 👉 Count: Multiple (approx 6–10 variables)
+👉 Count: Multiple (approx 6–10 variables)
 
 
 
@@ -286,7 +286,7 @@ Better than multiple if-else
 
 Easy to understand
 
-## 👉 Count: 6 cases + 1 default
+👉 Count: 6 cases + 1 default
 
 
 
