@@ -331,8 +331,20 @@ Search	O(log n)
 Delete	O(log n)
 
 Display	O(n)
+----
+🟦 8. Output Explanation
 
+“In our program:
 
+We can add flight records
+
+for a specific flight
+
+Update gate allocation
+
+Delete records
+
+Display flights in sorted order”
 
 
 ## 💻 Compilation Instructions
