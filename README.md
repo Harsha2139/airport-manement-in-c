@@ -37,10 +37,15 @@ Traditional methods may be slow and inefficient when handling large datasets. Th
 **Binary Search Tree (BST)**
 
 A Binary Search Tree is used to store flight records based on Flight ID.
+
 It allows efficient insertion, deletion, searching, and sorting of data.
+
 Why BST?
+
 Fast searching
+
 Automatic sorting
+
 Efficient insertion and deletion
 ---
 ## 4. Features of Our System
