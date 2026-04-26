@@ -48,9 +48,13 @@ Efficient insertion and deletion
 “Our system provides the following functionalities:
 
 Insert new flight records
+
 Search for existing flights
+
 Update gate allocation
+
 Delete flight records
+
 Display all flights in sorted order
 
 This makes the system efficient and easy to use.”
