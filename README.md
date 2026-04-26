@@ -46,7 +46,8 @@ Fast searching
 
 Automatic sorting
 
-Efficient insertion and deletion
+efficient insertion and deletion
+
 ---
 ## 4. Features of Our System
 
@@ -63,6 +64,7 @@ Delete flight records
 Display all flights in sorted order
 
 This makes the system efficient and easy to use.”
+
 ---
 ## ⚙️ Algorithm Explanation
 
@@ -101,6 +103,7 @@ This makes the system efficient and easy to use.”
 ### 5. Update
 
 * Search for the flight using Flight ID
+* 
 * Modify the status field
 
 ---
@@ -336,6 +339,7 @@ Search	O(log n)
 Delete	O(log n)
 
 Display	O(n)
+
 ----
 ### 🟦 8. Output Explanation
 
