@@ -102,8 +102,35 @@ This makes the system efficient and easy to use.”
 
 ### ✈️ Gate Allocation System – Complete Explanation
 
+## Structure
 
-### 🔹 1. Functions
+# ✅ Definition
+
+Structure is a user-defined data type used
+
+ to group related data.
+
+struct Node {
+
+    int flightNo;
+
+    int gateNo;
+
+    struct Node *left, *right;
+
+};
+
+# 👉 Why used?
+
+Store multiple values (flight + gate)
+
+ together
+
+Represent tree node
+
+## 👉 Count: 1 structure (Node)
+
+### 🔹 2. Functions
 
 ## ✅ What are Functions?
 
@@ -143,42 +170,39 @@ Easy to debug
 
 
 
-### 🔹 2. Structure
+
+### 🔹 3. Pointers
 
 ✅ Definition
 
-Structure is a user-defined data type used
+Pointers store address of variables.
 
- to group related data.
+struct Node *left, *right;
 
-struct Node {
+## 👉 Used in:
 
-    int flightNo;
+Linking nodes
 
-    int gateNo;
+Dynamic memory (malloc)
 
-    struct Node *left, *right;
+Tree traversal
 
-};
+## 👉 Why used?
 
-👉 Why used?
+To create dynamic data structure
 
-Store multiple values (flight + gate)
+Efficient memory usage
 
- together
+## 👉 Count:
 
-Represent tree node
+Multiple pointers (root, left, right,
 
-## 👉 Count: 1 structure (Node)
-
-
-
-
-### 🔹 3. Loops
+ temp)
+ Loops
 
 ## ✅ Types Used
 
-while loop
+### 4..while loop
 
 while(1)
 
@@ -208,35 +232,6 @@ Traverse tree
 
 Multiple recursive calls
 
-
-
-### 🔹 4. Pointers
-
-✅ Definition
-
-Pointers store address of variables.
-
-struct Node *left, *right;
-
-## 👉 Used in:
-
-Linking nodes
-
-Dynamic memory (malloc)
-
-Tree traversal
-
-## 👉 Why used?
-
-To create dynamic data structure
-
-Efficient memory usage
-
-## 👉 Count:
-
-Multiple pointers (root, left, right,
-
- temp)
 
 
 
