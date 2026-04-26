@@ -332,7 +332,7 @@ Delete	O(log n)
 
 Display	O(n)
 ----
-🟦 8. Output Explanation
+### 🟦 8. Output Explanation
 
 “In our program:
 
