@@ -43,7 +43,18 @@ Fast searching
 Automatic sorting
 Efficient insertion and deletion
 ---
+## 4. Features of Our System
 
+“Our system provides the following functionalities:
+
+Insert new flight records
+Search for existing flights
+Update gate allocation
+Delete flight records
+Display all flights in sorted order
+
+This makes the system efficient and easy to use.”
+---
 ## ⚙️ Algorithm Explanation
 
 ### 1. Insertion
