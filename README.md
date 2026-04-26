@@ -16,8 +16,15 @@ Airport Management System using Binary Search Tree
 * Member 2 Name Boodati Jayanth-CDS/2025/1814
 
 ---
+📌 Introduction
 
+In modern airports, managing flight records efficiently is a critical task. Airports handle a large number of flights daily, requiring fast operations such as adding new flights, searching records, updating statuses, and displaying sorted data.
+
+Traditional methods like manual record keeping or unsorted data structures can be slow and inefficient, especially when the dataset grows large. To solve this problem, our project implements a Binary Search Tree (BST) to manage flight records efficiently.
+
+This system demonstrates how data structures can be applied to real-world problems like airport management.
 ## ❓ Problem Statement
+---
 
 Managing flight records in an airport efficiently is a crucial task. The system must support operations such as adding new flights, searching for existing flights, updating flight status, deleting flight records, and displaying all flights in sorted order.
 
@@ -31,7 +38,10 @@ Traditional methods may be slow and inefficient when handling large datasets. Th
 
 A Binary Search Tree is used to store flight records based on Flight ID.
 It allows efficient insertion, deletion, searching, and sorting of data.
-
+Why BST?
+Fast searching
+Automatic sorting
+Efficient insertion and deletion
 ---
 
 ## ⚙️ Algorithm Explanation
