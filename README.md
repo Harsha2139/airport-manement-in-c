@@ -16,7 +16,7 @@ Airport Management System using Binary Search Tree
 * Member 2 Name Boodati Jayanth-CDS/2025/1814
 
 ---
-📌 Introduction
+## 📌 Introduction
 
 In modern airports, managing flight records efficiently is a critical task. Airports handle a large number of flights daily, requiring fast operations such as adding new flights, searching records, updating statuses, and displaying sorted data.
 
